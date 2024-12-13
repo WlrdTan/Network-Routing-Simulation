@@ -31,19 +31,8 @@ The programme uses graph based updates when network changes occur and calculates
 The programme also stops executing when the shortest path remains the same for 5 iterations or if the no of iterations reach 100 (This is to make sure that the programme isnt infinitly recursive)
 
 For example for an input topology-1
-0:A,B,4
-0:A,C,6
-0:B,C,1
-0:C,D,8
-0:C,E,4
-0:D,E,10
-0:D,F,15
-0:B,D,5
-0:E,G,2
-0:E,G,2
-0:F,G,6
-6:E,D,5
-6:B,C,4
+
+![4](https://github.com/user-attachments/assets/b755845a-c264-4964-a3b6-d4ace87c1c5f)
 
 It produces files
 
